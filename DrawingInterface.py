@@ -6,7 +6,7 @@ from tensorflow import keras
 
 class DrawingInterface:
     def __init__(self):
-        self.model = keras.models.load_model('models/handwritten5.keras')
+        self.model = keras.models.load_model('models/handwritten.keras')
         self.root = tk.Tk()
         self.canvas = tk.Canvas(self.root, width=280, height=280, bg='white')
         self.canvas.pack()
