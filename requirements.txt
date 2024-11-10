@@ -1,0 +1,8 @@
+tk
+pillow
+numpy
+tensorflow
+keras
+keras-utils
+pandas
+scikit-learn
